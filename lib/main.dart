@@ -5,7 +5,7 @@ import 'home.dart';
 
 
 Future main() async {
-  await dotenv.load(fileName: "assets/env/.env.dev");
+  await dotenv.load(fileName: "assets/env/.env");
   runApp(const MyApp());
 }
 
